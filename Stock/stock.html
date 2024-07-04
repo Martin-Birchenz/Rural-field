@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rural field</title>
+  </head>
+  <body>
+    <h1>Stock de alimentación</h1>
+
+    <form id="pedidos">
+      <div>
+        <label for="kgE">Ingrese kg entrada:</label>
+        <input type="number" id="kgE" name="kgE" />
+      </div>
+
+      <div>
+        <label for="kgS">Ingrese kg salida:</label>
+        <input type="number" id="kgS" name="kgS" />
+      </div>
+
+      <div>
+        <label for="cabezas">Ingrese cabezas:</label>
+        <input type="number" id="cabezas" name="cabezas" />
+      </div>
+    </form>
+
+    <div>
+      <button id="calcularConsumo">Calcular consumo</button>
+      <button id="calcularEncierre">Calcular encierre</button>
+      <button id="botonLimpiar">Limpiar campos</button>
+    </div>
+
+    <div>
+      <p id="resultadoConsumo">Resultado de consumo diario:</p>
+      <p id="resultadoEncierre">Resultado días de encierre:</p>
+    </div>
+
+    <script src="stock.js"></script>
+  </body>
+</html>
